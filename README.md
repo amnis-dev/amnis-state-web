@@ -1,2 +1,3 @@
-# amnis-state-web
-State types and management for web applications
+# Amnis State Web
+
+State types and management for web applications.

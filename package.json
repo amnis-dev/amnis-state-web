@@ -7,6 +7,21 @@
   "private": true,
   "type": "module",
   "packageManager": "yarn@3.4.1",
+  "homepage": "https://github.com/amnis-dev/amnis-state",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
     "test": "yarn node --no-warnings --experimental-vm-modules $(yarn bin jest) src/"
   },
