@@ -1,0 +1,10 @@
+{
+  "extends": "@amnis/tsconfig-node",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "lib": ["ES2021"],
+    "esModuleInterop": true,
+  },
+  "include": ["./packages/**/*.ts*"],
+  "files": ["jest.d.ts"],
+}

@@ -55,12 +55,19 @@
     "**/*.lock": true,
     "**/package-lock.json": true,
     "**/*.tsbuildinfo": true,
-    "**/*.schema.json": true
+    "**/*.schema.json": true,
+    "**/.pnp.*": true
   },
   "html.format.unformatted": "wbr,%",
   "debug.internalConsoleOptions": "neverOpen",
   "npm.packageManager": "yarn",
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
