@@ -5,6 +5,6 @@
     "lib": ["ES2021"],
     "esModuleInterop": true,
   },
-  "include": ["./packages/**/*.ts*"],
+  "include": ["./src/**/*.ts*"],
   "files": ["jest.d.ts"],
 }
